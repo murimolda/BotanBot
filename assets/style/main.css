@@ -118,7 +118,7 @@ p {
   --main-font: "Roboto Mono", sans-serif;
   --main-bg: #ffffff;
   --main-fz: 1.3rem;
-  --container-w: 86%;
+  --container-w: 80%;
   --container-ws: 96%;
   --active-link-color: #0088cc;
 }
@@ -164,13 +164,12 @@ a:visited {
 }
 
 .main-container {
-  padding-top: 2rem;
-  gap: 4rem;
+  padding-top: 1.5rem;
 }
 
 .main-link {
   display: inline-block;
-  width: 4rem;
+  width: 6rem;
   height: auto;
 }
 
@@ -210,17 +209,18 @@ p {
 }
 
 .content-section {
-  width: 50%;
+  width: 60%;
   margin-top: 4rem;
 }
 
 .aside-block {
-  width: 40%;
+  width: 38%;
 }
 
 .mobile-screen {
   height: 75vh;
   width: auto;
+  text-align: center;
 }
 
 .screen-image {
