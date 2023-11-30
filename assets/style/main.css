@@ -478,8 +478,16 @@ p {
 }
 
 .opportunity-item {
+  width: 49%;
   display: inline-flex;
   gap: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .opportunity-item {
+    width: 100%;
+  }
 }
 
 .opportunity-icon {
