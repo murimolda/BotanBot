@@ -219,6 +219,12 @@ a.active {
   text-transform: uppercase;
 }
 
+@media screen and (max-width: 600px) {
+  .title {
+    text-align: center;
+  }
+}
+
 h2 {
   font-size: 1.8em;
   margin-bottom: 2rem;
@@ -318,6 +324,30 @@ p {
 
   .bot-button {
     width: 18em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .content-button-wrap {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+
+  .bot-button {
+    margin: 0;
+    width: 8rem;
+  }
+
+  .bot-link,
+  .bot-link:visited {
+    font-size: 1.2em;
+  }
+
+  .opportunity-link {
+    display: inline-block;
+    width: 10rem;
   }
 }
 
