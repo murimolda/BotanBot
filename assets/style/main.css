@@ -342,6 +342,7 @@ p {
   }
 
   .content-button-wrap .bot-link {
+    -webkit-padding: 0 5px;
     font-size: 1.2em;
   }
 
@@ -352,6 +353,10 @@ p {
   .opportunity-link {
     display: inline-block;
     width: 10rem;
+  }
+
+  .bot-button {
+    width: 17em;
   }
 }
 
@@ -525,6 +530,7 @@ p {
 @media screen and (max-width: 1024px) {
   .opportunity-item {
     width: 100%;
+    padding-right: 1rem;
   }
 }
 
