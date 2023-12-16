@@ -20,7 +20,7 @@
         </section>
         <aside class="aside-block">
           <div class="mobile-screen">
-            <img src="assets/images/image/screen-image-main.png" alt="mobile screen" class="screen-image">
+            <img src="<?php echo BOT_ASSETS_DIR ?>/images/image/screen-image-main.png" alt="mobile screen" class="screen-image">
           </div>
         </aside>
         </div>

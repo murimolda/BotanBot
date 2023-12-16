@@ -6,14 +6,17 @@
       name="viewport"
       content="width=device-width, initial-scale=1, user-scalable=yes">
     <title>BotanBot</title>
-    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="<?php echo BOT_ASSETS_DIR ?>/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="assets/style/main.css">
+
+    <?php wp_head(); ?>
+
   </head>
   <body>
     <header class="header">
       <div class="container header-container flex-container">
         <a href="index.html" class="main-link">
-          <img src="assets/images/icons/main_logo.svg" alt="logo" class="logo-icon">
+          <img src="<?php echo BOT_ASSETS_DIR ?>/images/icons/main_logo.svg" alt="logo" class="logo-icon">
         </a>
         <div class="nav-wrap">
           <nav class="nav">
