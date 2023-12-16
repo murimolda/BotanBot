@@ -22,8 +22,8 @@
           <nav class="nav">
             <ul class="nav-list">
               <li class="nav-item"><a href="https://botanbot.ru/opportunity/" class="nav-link">Возможности</a></li>
-              <li class="nav-item"><a href="https://botanbot.ru/photo/" class="nav-link active">Решение задач по фото</a></li>
-              <li class="nav-item"><a href="https://botanbot.ru/voice/" class="nav-link">Распознавание голосовых сообщений</a></li>
+              <li class="nav-item"><a href="https://botanbot.ru/photo/" class="nav-link">Решение задач по фото</a></li>
+              <li class="nav-item"><a href="https://botanbot.ru/voice/" class="nav-link active">Распознавание голосовых сообщений</a></li>
               <li class="nav-item mobile-bot-button">
                 <button class="bot-button">
                   <a href="https://t.me/Botan_gdz_bot" target="_blank" class="bot-link">
