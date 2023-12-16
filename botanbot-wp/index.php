@@ -13,7 +13,7 @@
                 перейти к боту
               </a>
             </button>
-            <a href="nav/opportunity.html" class="opportunity-link">
+            <a href="https://botanbot.ru/opportunity/" class="opportunity-link">
               Подробнее про возможности &#8594;
             </a>
           </div>

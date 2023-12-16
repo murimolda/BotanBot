@@ -7,7 +7,7 @@
       content="width=device-width, initial-scale=1, user-scalable=yes">
     <title>BotanBot</title>
     <link rel="shortcut icon" href="<?php echo BOT_ASSETS_DIR ?>/images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="assets/style/main.css">
+    <link rel="stylesheet" href="../assets/style/main.css">
 
     <?php wp_head(); ?>
 
@@ -22,8 +22,8 @@
           <nav class="nav">
             <ul class="nav-list">
               <li class="nav-item"><a href="https://botanbot.ru/opportunity/" class="nav-link">Возможности</a></li>
-              <li class="nav-item"><a href="https://botanbot.ru/photo/" class="nav-link">Решение задач по фото</a></li>
-              <li class="nav-item"><a href="https://botanbot.ru/voice/" class="nav-link">Распознавание голосовых сообщений</a></li>
+              <li class="nav-item"><a href="https://botanbot.ru/photo/" class="nav-link active">Решение задач по фото</a></li>
+              <li class="nav-item"><a href="../nav/voice.html" class="nav-link">Распознавание голосовых сообщений</a></li>
               <li class="nav-item mobile-bot-button">
                 <button class="bot-button">
                   <a href="https://t.me/Botan_gdz_bot" target="_blank" class="bot-link">
